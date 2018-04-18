@@ -1,0 +1,51 @@
+body {
+    margin-top: 55px;
+    background-color: #FFFAF0;
+}
+
+.jumbotron, .jumbotron-fluid {
+    height: 400px;
+   
+}
+
+.bg-infoCover {
+    background-image: url("../images/tick.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.carousel-indicators .active {
+    background-color: red;
+}
+
+.display-4 {
+    color: #573927;
+    font-weight: 600;
+}
+
+.bg-infoAbout {
+    background-image: url("../images/away-3024773_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sections {
+    color: #573927;
+    font-size: 20px;
+    font-weight: bold;
+    font-size-adjust: auto;
+}
+
+.bg-infoSymptoms {
+    background-image: url("../images/woman-1006102_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.bg-infoTreatment {
+    background-image: url("../images/checklist-3222079_1920.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
