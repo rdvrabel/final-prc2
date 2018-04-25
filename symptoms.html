@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/myStyle.css">
+    <link href="https://fonts.googleapis.com/css?family=Patua+One" rel="stylesheet">
 
     
   </head>
@@ -36,48 +37,40 @@
             </div> <!--end of jumbotron container -->
     </div> <!-- end of jumbotron   -->
     
-    <h3 class="display-4 text-center py-5">Symptoms</h3> 
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalCenter">
+  Do you have symptoms?
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Next Steps</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>If you're experiencing some or all of these symptoms and were in a tick-prone area, make an appointment with your general practitioner or a rheumatologist. Many doctors test for Lyme Disease and not <em>Borrelia miyamotoi</em>. Be sure to request both tests to rule out tick disease. Currently, the laboratory company Imugen tests for <em>Borrelia miyamotoi</em>.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> <!--End of modal-->
+    <h5 class="display-4 text-center py-2">Symptoms</h5> 
      
     <div class="container pb-10">
         <p class="sections">Dr. Peter J. Krause, a Yale disease specialist and author of the New England of Journal Medicine <a href="http://www.nejm.org/doi/full/10.1056/NEJMc1215469#t=article">report</a> on <em>Borrelia miyamotoi</em> says  that the most distinctive feature of the illness is a fever that can burn for a few days and then go away, only to return anywhere from a week to a month later. In people whose immune systems are functioning well, the infection may simply cause flu-like symptoms such as headache, respiratory illness, muscle aches, stiff neck and fatigue. Unlike Lyme disease, the infection appears to come with a distinctive rash in only about 10% of cases.</p>
         <p class="sections">People who don’t get treated can develop pneumonia or other respiratory illnesses, chronic fatigue, joint and muscle pain, or even joint deterioration. Other long-term effects include inflammation of the iris, cranial nerve disorder, and other possible neuropathies.</p>
         <p class="sections">As the case report underscored, <em>Borrelia miyamitoi</em> infections can be more serious in those whose immune systems are compromised by age or illness. The authors write, "Patients presented with acute headache, fever, and chills and were often found to have leukopenia, thrombocytopenia, and elevated aminotransferase levels, mimicking human anaplasmosis infection. Patients were commonly described as appearing 'toxic'; more than 50% were suspected of having sepsis, and 24% required hospitalization."</p>
-<!-- The Modal -->
-    <div class="row m-1">
-            <!-- Button to Open the Modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
-             Do You Have Symptoms?
-            </button>
-
-
-<div class="modal fade" id="myModal">
-  <div class="modal-dialog">
-    <div class="modal-content">
-
-      <!-- Modal Header -->
-      <div class="modal-header">
-        <h4 class="modal-title">Next Steps</h4>
-        <!--<button type="button" class="close" data-dismiss="modal">&times;</button>-->
-      </div>
-
-      <!-- Modal body -->
-      <div class="modal-body">
-        <p>Advice goes here</p>
-      </div>
-
-      <!-- Modal footer -->
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-      </div>
-
-    </div>
-  </div>
-</div>
-        </div> <!--End of Modal-->
         
 
     </div> <!--end of container--> 
-    <!--ctrl+shift+/ or cmd+alt+/-->
+ 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
